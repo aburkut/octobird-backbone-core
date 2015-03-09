@@ -25,7 +25,6 @@ define(function (require) {
 
             Backbone.Model.apply(this, arguments);
 
-            // Декларативные слушатели
             this.delegateListeners();
         },
 
